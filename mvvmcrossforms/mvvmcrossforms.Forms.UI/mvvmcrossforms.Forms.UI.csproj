@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmCross.Forms" Version="6.4.2" />
+    <PackageReference Include="MvvmCross" Version="6.4.2" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.530" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mvvmcrossforms.Core\mvvmcrossforms.Core.csproj" />
+  </ItemGroup>
+</Project>
