@@ -9,7 +9,7 @@ using mvvmcrossforms.Forms.UI;
 namespace mvvmcrossforms.Droid
 {
     [Activity(Label = "MvvmCrossForms", Icon = "@mipmap/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, LaunchMode = LaunchMode.SingleTask)]
-    public class MainActivity : MvxFormsAppCompatActivity<AndroidSetup, CoreApp, App>
+    public class MainActivity : MvxFormsApplicationActivity<AndroidSetup, CoreApp, App>
     {
         protected override void OnCreate(Bundle bundle)
         {
@@ -24,5 +24,5 @@ namespace mvvmcrossforms.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
-	}
+    }
 }
