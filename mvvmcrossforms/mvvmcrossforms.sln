@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvvmcrossforms.Core", "mvvm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvvmcrossforms.Forms.UI", "mvvmcrossforms.Forms.UI\mvvmcrossforms.Forms.UI.csproj", "{4D2F0570-B8C3-49F3-BF71-38DFE72A7552}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvvmcrossforms.Driod", "mvvmcrossforms.Driod\mvvmcrossforms.Driod.csproj", "{D70D7981-14E2-4DF4-ADA5-5111A3FB5F40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvvmcrossforms.Droid", "mvvmcrossforms.Droid\mvvmcrossforms.Droid.csproj", "{D70D7981-14E2-4DF4-ADA5-5111A3FB5F40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
