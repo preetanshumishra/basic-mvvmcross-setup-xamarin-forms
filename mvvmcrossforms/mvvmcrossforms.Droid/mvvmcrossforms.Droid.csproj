@@ -113,6 +113,9 @@
     <PackageReference Include="MvvmCross.Forms">
       <Version>8.0.2</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.AppCompat.AppCompatResources">
+      <Version>1.6.1.5</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\mvvmcrossforms.Core\mvvmcrossforms.Core.csproj">
