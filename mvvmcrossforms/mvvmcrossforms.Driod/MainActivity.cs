@@ -4,9 +4,10 @@ using Android.OS;
 using Android.Runtime;
 using MvvmCross.Forms.Platforms.Android.Views;
 using mvvmcrossforms.Core;
+using mvvmcrossforms.Droid;
 using mvvmcrossforms.Forms.UI;
 
-namespace mvvmcrossforms.Droid
+namespace mvvmcrossforms.Driod
 {
     [Activity(Label = "MvvmCrossForms", Icon = "@mipmap/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, LaunchMode = LaunchMode.SingleTask)]
     public class MainActivity : MvxFormsAppCompatActivity<AndroidSetup, CoreApp, App>
@@ -18,11 +19,11 @@ namespace mvvmcrossforms.Droid
             base.OnCreate(bundle);
         }
 
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Permission[] grantResults)
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
-    }
+	}
 }
