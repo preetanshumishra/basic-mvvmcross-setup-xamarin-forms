@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <BuildWithMSBuildOnMono>true</BuildWithMSBuildOnMono>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -11,6 +12,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="6.4.2" />
+    <PackageReference Include="MvvmCross" Version="8.0.2" />
   </ItemGroup>
 </Project>
